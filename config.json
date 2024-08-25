@@ -1,0 +1,20 @@
+{
+  "microservice": {
+    "service_name": "your services name",
+    "fe_host": "$FRONTEND_URL"
+  },
+  "database": {
+    "host": "$DB_HOST",
+    "port": 3306,
+    "user": "$DB_USER",
+    "password": "$DB_PASS",
+    "name": "$DB_SCHEMA"
+  },
+  "rabbitMQ": {
+    "host": "$RMQ_HOST",
+    "user": "$RMQ_USER",
+    "pass": "$RMQ_PASS",
+    "exchange": "exchange_name",
+    "queue": "queue_name"
+  }
+}
